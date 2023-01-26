@@ -4,19 +4,21 @@
         "firstName": "Kevin Smith",
        "position": " Designer ", 
         "degree": "Computer Systems",
-        "color": "lightgrey"
+        "bio": " One of the fastest and most creative cats around, Kevin is our lead designer"
         
     },
     
     {
         "firstName": "Joe Roberts",
         "position": " Accountant ", 
-        "degree": "Finance"
+        "degree": "Finance",
+        "bio": " Lightining fast with numbers, Joe is our Lead Accountant "
     },
     {
         "firstName": "Mary Beth",
         "position": "Bookkeeper ", 
-        "degree": "Finance"
+        "degree": "Finance",
+        "bio": "Mary can tackle any hurdle with the speed on the books"
     }
    
 ]

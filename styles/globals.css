@@ -136,7 +136,14 @@ a {
 
 h1, h3, a {
   background: white;
+  font-size: 40px;
 }
+
+p {
+  background: white;
+  font-size: 24px;
+}
+
 
 h2 {
   font-size: 75px;

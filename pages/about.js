@@ -50,6 +50,7 @@ export default function About() {
             name={info.firstName} 
             job={info.position}
             degree={info.degree}
+            bio={info.bio}
             colour= "blue"
             font= "32px"
           

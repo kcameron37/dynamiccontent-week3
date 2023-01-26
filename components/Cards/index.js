@@ -6,7 +6,9 @@ export default function Card({
     font = "0",
     image = "public/icon/runicon.jpg", 
     job = "",
-    name =""
+    name ="",
+    bio=""
+
     }) {
     return (
 
@@ -33,9 +35,12 @@ export default function Card({
                                         <img src={image} width = '50'></img>
         }
            
-            {name} <br></br>
-            {job} <br></br>
-            {degree}
+           <h3> {name} </h3>
+           <br></br>
+            <h3>{job}</h3>
+            <h3>{degree}</h3> <br></br>
+            <p>{bio}</p>
+
            
     
         </div>
