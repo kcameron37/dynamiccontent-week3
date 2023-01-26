@@ -1,0 +1,22 @@
+[
+    {
+     
+        "firstName": "Kevin Smith",
+       "position": " Designer ", 
+        "degree": "Computer Systems",
+        "color": "lightgrey"
+        
+    },
+    
+    {
+        "firstName": "Joe Roberts",
+        "position": " Accountant ", 
+        "degree": "Finance"
+    },
+    {
+        "firstName": "Mary Beth",
+        "position": "Bookkeeper ", 
+        "degree": "Finance"
+    }
+   
+]

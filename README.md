@@ -1,6 +1,11 @@
+## In-class Example 3 
+### This is the week 3 in-class assignment to create a list of employees and their information and style the page 
+
+## Next.js hosted  on vercel 
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
 First, run the development server:
 

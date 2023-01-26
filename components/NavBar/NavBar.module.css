@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    color: black;
+    font-size: 40px;
+    border-bottom: 7px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+

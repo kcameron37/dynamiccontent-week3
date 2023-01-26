@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px ;
   padding: 6rem;
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 .description {
@@ -275,4 +276,12 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+
+.employee__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
 }

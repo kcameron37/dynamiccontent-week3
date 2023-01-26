@@ -1,19 +1,42 @@
 export default function Card({
     degree ="none", 
-    colour = "purple", 
+    position = "none", 
+    color = "white",
+    fontColor = "black",
     font = "0",
-    image = "icon/personTwo.png"
-}) {
+    image = "public/icon/runicon.jpg", 
+    job = "",
+    name =""
+    }) {
     return (
 
-        <div style = {{backgroundColor: colour, fontSize: font}}>
-        {
-            colour==="red" ? <img src={'icon/person.png'} width = '50'/>:
-            colour==="blue" ? <img src={'icon/personThree.png'} width = '50'/>:
-                            <img src={image} width = '50'/>
-        }
+        <div style = {{
+            backgroundColor: color,
+             fontSize: font,
+             color: fontColor,
+              width: "500px",
+              height: "400px",
+             padding: "20px",
+             margin: "20px",
+             borderRadius: "70px", 
+             border: "solid 6px",
+             display: "flex", 
+             justifyContent: "center",
+             alignItems: "center",
+             textAlign: "center",
+             flexDirection: "column",
+             }}>
 
+        { 
+        
+            color==="white" ? <img src={'icon/runicon.jpg'} width = '80'></img>:
+                                        <img src={image} width = '50'></img>
+        }
+           
+            {name} <br></br>
+            {job} <br></br>
             {degree}
+           
     
         </div>
     )
